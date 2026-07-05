@@ -28,9 +28,14 @@ Hash table thường hỗ trợ các thao tác **thêm**, **tìm kiếm** và **
 - [3. Hash function](#3-hash-function)
 - [4. Bucket](#4-bucket)
 - [5. Collision](#5-collision)
-  - [5.1. Separate chaining](#51-separate-chaining)
-  - [5.2. Open addressing](#52-open-addressing)
+    - [5.1. Separate chaining](#51-separate-chaining)
+    - [5.2. Open addressing](#52-open-addressing)
 - [6. Độ phức tạp](#6-độ-phức-tạp)
+- [7. Lưu ý](#7-lưu-ý)
+    - [7.1. Cùng một key phải luôn cho cùng một hash value](#71-Cùng-một-key-phải-luôn-cho-cùng-một-hash-value)
+    - [7.2. Hai key giống nhau phải có hash giống nhau](#72-Hai-key-giống-nhau-phải-có-hash-giống-nhau)
+    - [7.3. Hai key khác nhau có thể có hash giống nhau](#73-Hai-key-khác-nhau-có-thể-có-hash-giống-nhau)
+    - [7.4. Hash function nên phân bố đều](#74-Hash-function-nên-phân-bố-đều)
 
 ---
 
@@ -273,3 +278,58 @@ bucket 3: A → B → C → D → E → NULL
 Nếu cần tìm `E`, ta có thể phải duyệt qua nhiều node.
 
 ---
+
+## 7. Lưu ý
+
+## 7.1. Cùng một key phải luôn cho cùng một hash value
+
+Ví dụ:
+
+```text
+hash(7) phải luôn cho ra cùng một kết quả, không được lúc thì ra 123, lúc thì ra 999
+```
+
+Vì nếu không, lúc insert(7) nó lưu ở một bucket, nhưng lúc find(7) lại đi tìm ở bucket khác.
+
+## 7.2 Hai key giống nhau phải có hash giống nhau
+
+Ví dụ:
+
+```text
+key = 10
+hash(10) = 1000
+```
+
+Lần nào gặp key 10 thì hash value cũng phải là 1000.
+
+## 7.3 Hai key khác nhau có thể có hash giống nhau
+
+Ví dụ:
+
+```text
+hash(10) = 5
+hash(21) = 5
+```
+
+Chuyện này được phép xảy ra. Đó gọi là collision.
+
+Hash table phải có cách xử lý collision, ví dụ code của bạn dùng linked list / separate chaining.
+
+## 7.4. Hash function nên phân bố đều
+Hash function tốt là hàm giúp key rơi đều vào các bucket.
+
+Ví dụ không tốt:
+
+```text
+unsigned int hash(int key) {
+    return 0;
+}
+```
+
+Hàm này vẫn “đúng” về mặt chạy được, nhưng rất tệ vì mọi key đều rơi vào một bucket:
+
+```text
+hashTable[0] → node → node → node → node → ...
+```
+
+Khi đó hash table gần giống linked list, tìm kiếm có thể thành O(n).

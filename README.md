@@ -169,18 +169,3 @@
 | 100 | 102 | Binary Tree Level Order Traversal | [ ] |
 
 ---
-
-## Theo số lượng bài
-
-| Mốc | Ý nghĩa | Trạng thái |
-|---:|---|---|
-| 25/100 | Nắm được array/string cơ bản | [ ] |
-| 45/100 | Nắm được bit manipulation cơ bản | [ ] |
-| 55/100 | Nắm được binary search/sorting | [ ] |
-| 67/100 | Nắm được stack/queue/circular buffer | [ ] |
-| 77/100 | Nắm được linked list/pointer | [ ] |
-| 90/100 | Nắm được matrix/prefix sum/simulation | [ ] |
-| 95/100 | Nắm được counting/hash cơ bản | [ ] |
-| 100/100 | Hoàn thành nền thuật toán ban đầu | [ ] |
-
----

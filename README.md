@@ -1,6 +1,4 @@
----
-
-## Tổng quan
+# Tổng quan
 
 | Giai đoạn | Chủ đề | Số bài |
 |---|---|---:|

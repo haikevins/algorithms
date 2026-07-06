@@ -1,6 +1,6 @@
 # Tổng quan
 
-| Giai đoạn | Chủ đề | Số bài |
+| Dạng | Chủ đề | Số bài |
 |---|---|---:|
 | 1 | Array, String, Two Pointers, Sliding Window | 25 |
 | 2 | Bit Manipulation, Math | 20 |

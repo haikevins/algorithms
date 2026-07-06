@@ -1,18 +1,6 @@
-# Lộ trình 100 bài LeetCode cho Embedded
-
-- Array, String, Pointer logic
-- Bit Manipulation
-- Stack, Queue, Circular Buffer
-- Linked List
-- Binary Search, Sorting
-- Buffer processing
-- Matrix / Image buffer cơ bản
-- Recursion, DFS, BFS cơ bản
-- Tư duy tối ưu bộ nhớ cho hệ thống tài nguyên hạn chế
-
 ---
 
-## Tổng quan lộ trình
+## Tổng quan
 
 | Giai đoạn | Chủ đề | Số bài |
 |---|---|---:|

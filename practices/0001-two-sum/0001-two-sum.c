@@ -17,7 +17,7 @@ typedef struct Node
 static Node* hashTable[TABLE_SIZE];
 
 /*
-    Hash function: 
+    Hash function 
     Takes a key and returns a hash value or hash code.
 */
 static uint32_t hash(int key) 

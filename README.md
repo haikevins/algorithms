@@ -14,7 +14,7 @@
 
 ---
 
-# Giai đoạn 1 — Array, String, Two Pointers, Sliding Window
+# Dạng 1 — Array, String, Two Pointers, Sliding Window
 
 | STT | Mã | Bài | Trạng thái |
 |---:|---:|---|---|
@@ -46,7 +46,7 @@
 
 ---
 
-# Giai đoạn 2 — Bit Manipulation, Math
+# Dạng 2 — Bit Manipulation, Math
 
 | STT | Mã | Bài | Trạng thái |
 |---:|---:|---|---|
@@ -73,7 +73,7 @@
 
 ---
 
-# Giai đoạn 3 — Binary Search, Sorting
+# Dạng 3 — Binary Search, Sorting
 
 | STT | Mã | Bài | Trạng thái |
 |---:|---:|---|---|
@@ -90,7 +90,7 @@
 
 ---
 
-# Giai đoạn 4 — Stack, Queue, Circular Buffer
+# Dạng 4 — Stack, Queue, Circular Buffer
 
 | STT | Mã | Bài | Trạng thái |
 |---:|---:|---|---|
@@ -109,7 +109,7 @@
 
 ---
 
-# Giai đoạn 5 — Linked List
+# Dạng 5 — Linked List
 
 | STT | Mã | Bài | Trạng thái |
 |---:|---:|---|---|
@@ -126,7 +126,7 @@
 
 ---
 
-# Giai đoạn 6 — Matrix, Simulation, Prefix Sum, Counting
+# Dạng 6 — Matrix, Simulation, Prefix Sum, Counting
 
 | STT | Mã | Bài | Trạng thái |
 |---:|---:|---|---|
@@ -146,7 +146,7 @@
 
 ---
 
-# Giai đoạn 7 — Hash Table, Counting
+# Dạng 7 — Hash Table, Counting
 
 | STT | Mã | Bài | Trạng thái |
 |---:|---:|---|---|
@@ -158,7 +158,7 @@
 
 ---
 
-# Giai đoạn 8 — Tree, DFS, BFS cơ bản
+# Dạng 8 — Tree, DFS, BFS cơ bản
 
 | STT | Mã | Bài | Trạng thái |
 |---:|---:|---|---|

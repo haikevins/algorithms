@@ -1,6 +1,6 @@
 # Overview
 
-| Topics | Topic | Number of Problems |
+| Topic | Topic | Number of Problems |
 |---|---|---:|
 | 1 | Array, String, Two Pointers, Sliding Window | 25 |
 | 2 | Bit Manipulation, Math | 20 |

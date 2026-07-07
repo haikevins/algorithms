@@ -1,6 +1,6 @@
 # Overview
 
-| Category | Topic | Number of Problems |
+| Topics | Topic | Number of Problems |
 |---|---|---:|
 | 1 | Array, String, Two Pointers, Sliding Window | 25 |
 | 2 | Bit Manipulation, Math | 20 |
@@ -14,7 +14,7 @@
 
 ---
 
-# Category 1 — Array, String, Two Pointers, Sliding Window
+# Topic 1 — Array, String, Two Pointers, Sliding Window
 
 | No. | ID | Problem | Difficulty |
 |---:|---:|---|---|
@@ -46,7 +46,7 @@
 
 ---
 
-# Category 2 — Bit Manipulation, Math
+# Topic 2 — Bit Manipulation, Math
 
 | No. | ID | Problem | Difficulty |
 |---:|---:|---|---|
@@ -73,7 +73,7 @@
 
 ---
 
-# Category 3 — Binary Search, Sorting
+# Topic 3 — Binary Search, Sorting
 
 | No. | ID | Problem | Difficulty |
 |---:|---:|---|---|
@@ -90,7 +90,7 @@
 
 ---
 
-# Category 4 — Stack, Queue, Circular Buffer
+# Topic 4 — Stack, Queue, Circular Buffer
 
 | No. | ID | Problem | Difficulty |
 |---:|---:|---|---|
@@ -109,7 +109,7 @@
 
 ---
 
-# Category 5 — Linked List
+# Topic 5 — Linked List
 
 | No. | ID | Problem | Difficulty |
 |---:|---:|---|---|
@@ -126,7 +126,7 @@
 
 ---
 
-# Category 6 — Matrix, Simulation, Prefix Sum, Counting
+# Topic 6 — Matrix, Simulation, Prefix Sum, Counting
 
 | No. | ID | Problem | Difficulty |
 |---:|---:|---|---|
@@ -146,7 +146,7 @@
 
 ---
 
-# Category 7 — Hash Table, Counting
+# Topic 7 — Hash Table, Counting
 
 | No. | ID | Problem | Difficulty |
 |---:|---:|---|---|
@@ -158,7 +158,7 @@
 
 ---
 
-# Category 8 — Tree, DFS, BFS Basics
+# Topic 8 — Tree, DFS, BFS Basics
 
 | No. | ID | Problem | Difficulty |
 |---:|---:|---|---|

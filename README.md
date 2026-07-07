@@ -1,16 +1,16 @@
 # Overview
 
-| Topic | Topic | Number of Problems |
-|---|---|---:|
-| 1 | Array, String, Two Pointers, Sliding Window | 25 |
-| 2 | Bit Manipulation, Math | 20 |
-| 3 | Binary Search, Sorting | 10 |
-| 4 | Stack, Queue, Circular Buffer | 12 |
-| 5 | Linked List | 10 |
-| 6 | Matrix, Simulation, Prefix Sum, Counting | 13 |
-| 7 | Hash Table, Counting | 5 |
-| 8 | Tree, DFS, BFS Basics | 5 |
-|  | **Total** | **100** |
+| Topic | Number of Problems |
+|---|---:|
+| 1 - Array, String, Two Pointers, Sliding Window | 25 |
+| 2- Bit Manipulation, Math | 20 |
+| 3 - Binary Search, Sorting | 10 |
+| 4 - Stack, Queue, Circular Buffer | 12 |
+| 5 - Linked List | 10 |
+| 6 - Matrix, Simulation, Prefix Sum, Counting | 13 |
+| 7 - Hash Table, Counting | 5 |
+| 8 - Tree, DFS, BFS Basics | 5 |
+| **Total** | **100** |
 
 ---
 

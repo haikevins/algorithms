@@ -3,7 +3,7 @@
 
 #define MAX_SIZE 100
 
-typedef struct 
+typedef struct
 {
     int* queue;
 

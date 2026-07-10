@@ -1,7 +1,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-typedef struct 
+typedef struct
 {
     int* inStack;
     int* outStack;
